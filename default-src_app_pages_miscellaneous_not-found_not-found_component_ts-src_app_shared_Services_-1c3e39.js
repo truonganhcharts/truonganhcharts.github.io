@@ -91,10 +91,10 @@ class DataDashboardService {
     return this.data;
   }
   getDataJson() {
-    return this.http.get("http://truonganhcharts.github.io/assets/datav3.json");
+    return this.http.get("https://truonganhcharts.github.io/assets/datav3.json");
   }
   getDataJsonDecode() {
-    return this.http.get("http://truonganhcharts.github.io/assets/datav4.json");
+    return this.http.get("https://truonganhcharts.github.io/assets/datav4.json");
   }
   getDataDefaultEncode() {
     return this.getDataJson();

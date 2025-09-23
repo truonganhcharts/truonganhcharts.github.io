@@ -5149,7 +5149,7 @@ class AuthService {
     })();
   }
   getUser() {
-    return this.http.get("http://truonganhcharts.github.io/assets/a-v1.json");
+    return this.http.get("https://truonganhcharts.github.io/assets/a-v1.json");
   }
   getLoggedInUser() {
     const token = localStorage.getItem("access_token");
